@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    border-bottom: 1px solid whitesmoke;
+    background-color:white;
+}
+
+#logo{
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav-links a{
+    padding: 0 2vw;
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#nav-links a:hover{
+    text-decoration: underline;
+    color: #F11A82;
+}
+
+
+
+#content{
+    height:calc(100% - 80px);
+    width: 100%;
+    display: flex;
+    
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    padding: 2vw 5vw;
+    background-color:white;
+   
+}
+#right{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+img{
+    height: 30vw;
+    border-radius: 50%;
+    padding: 5vw 2vw;
+}
+
+#left h3{
+    font-size: 5vw;
+    font-weight: 600;
+    color: black;
+    gap: 2w;
+    margin-top: 7vw;
+}
+
+#left p{
+    color:black;
+    margin-top: 1.5vw;
+    letter-spacing: 0.3vw;
+}
+span{
+    color:#F11A82;
+    font-size: 5vw;
+}
+
+button{
+    height: 3vw;
+    width: 10vw;
+    background-color: #F11A82;
+    color: black;
+    border-color:whitesmoke ;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 3vw;
+    margin-left: 6vw;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
+
+#right img{
+    margin-left: 6vw;
+    margin-top: 0vw;
+    height: 90%;
+    width: 80%;
+}
+i{
+    margin-left: 3vw;
+    gap: 3vw;
+    font-size: 2vw;
+}
+
+i:hover{
+    background-color: gray;
+}
+
+#technologies{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+#skills{
+    height: 30%;
+    width: 100%;
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px) {
+     #right{
+        flex-wrap:wrap;
+
+    }
+  }
