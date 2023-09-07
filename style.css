@@ -89,7 +89,7 @@ span{
 button{
     height: 3vw;
     width: 10vw;
-    background-color: #F11A82;
+    background-color: #e41277;
     color: black;
     border-color:whitesmoke ;
     border: 0px;
@@ -101,7 +101,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(88, 52, 58);
+    background-color: #f50a7b;
 }
 
 #right img{
